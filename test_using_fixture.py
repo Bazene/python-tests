@@ -1,9 +1,3 @@
-# Test fixtures scope : 4 scopes which specify how often the fixture will be called
-# 1. Function : run the fixture once for each test
-# 2. Class : run the fixture once for each class of tests
-# 3. Module : run once when the module goes in scope
-# 4. Session : the fixture is run when pytest starts
-
 import pytest
 
 # ONE WAY TO USE FIXTURE FOR SETUP FUNCTION (The commented function work, it is simular to the next one)
