@@ -1,4 +1,5 @@
 # @classmethod : Python decorator that is used to define a method that belongs to the class rather than an instance of the class.
+# Helps to get access to the method out of the class without an instance. By using only the className.name_of_the_method
 # "cls" refers to the class itself
 # "self" refers to an instance
 
