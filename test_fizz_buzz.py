@@ -11,12 +11,13 @@ def fizz_buzz(value):
         return "Buzz"
     return str(value)
 
-def test_can_call_fizz_buzz():
-    fizz_buzz(1)
 
 def check_expected(value, expected_string):
     response = fizz_buzz(value)
     assert response == expected_string
+
+def test_can_call_fizz_buzz():
+    fizz_buzz(1)
 
 # USE CASE 2 : Get "1" when I pass in 1
 def test_returns1_with_1passed():

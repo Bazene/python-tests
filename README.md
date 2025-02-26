@@ -19,6 +19,7 @@ pytest 8.3.4
 You can use the `assert` statement to verify test expectations
 
 # Create your first test
+File tests must start with test_ or end in _test.py
 Create a new file called test_sample.py, containing a function, and a test:
 
 # content of test_sample.py
