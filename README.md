@@ -59,15 +59,15 @@ For that, you may use the following command
 # Run tests in pycharm (Set pytest as the Default Test Runner in PyCharm)
 1. Go to Run → Edit Configurations.
 
-![img.png](img.png)  
-![img_1.png](img_1.png)
+![img.png](static/assets/img.png)  
+![img_1.png](static/assets/img_1.png)
 
 2. Click the + button (top-left corner) and select Python Tests → pytest.
 3. In the Script path, select your test file or directory.
 4. In the Additional Arguments field, enter : `-v`
 5. Click Apply and OK.
 
-![img_2.png](img_2.png)
+![img_2.png](static/assets/img_2.png)
 
 
 # Run multiple tests
