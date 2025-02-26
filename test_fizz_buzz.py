@@ -35,4 +35,3 @@ def test_fizz_for_5multiples():
 def test_fizz_for_15multiples():
     check_expected(15, "FizzBuzz")
 
-test_returns1_with_1passed()

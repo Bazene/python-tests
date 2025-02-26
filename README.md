@@ -51,6 +51,22 @@ test_sample.py:6: AssertionError
 ========================= short test summary info ==========================
 FAILED test_sample.py::test_answer - assert 4 == 5
 ============================ 1 failed in 0.12s =============================
+# Run all tests in terminal
+For that, you may use the following command
+`pytest -v`
+
+# Run tests in pycharm (Set pytest as the Default Test Runner in PyCharm)
+1. Go to Run → Edit Configurations.
+
+![img.png](img.png)  
+![img_1.png](img_1.png)
+
+2. Click the + button (top-left corner) and select Python Tests → pytest.
+3. In the Script path, select your test file or directory.
+4. In the Additional Arguments field, enter : `-v`
+5. Click Apply and OK.
+
+![img_2.png](img_2.png)
 
 
 # Run multiple tests
