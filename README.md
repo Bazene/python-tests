@@ -2,6 +2,7 @@
 
 This branch contain all practices session of the Udemy course entitled Unit testing and Test Driven Development(TDD) in Python
 
+THE TEST ON THIS BRANCH WILL USE TDD (Test Driven Development) STRUCTURE
 
 Get Started
 Install pytest
