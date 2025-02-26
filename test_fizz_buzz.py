@@ -14,24 +14,24 @@ def fizz_buzz(value):
 def test_can_call_fizz_buzz():
     fizz_buzz(1)
 
+def check_expected(value, expected_string):
+    response = fizz_buzz(value)
+    assert response == "expected_string"
+
 # USE CASE 2 : Get "1" when I pass in 1
 def test_returns1_with_1passed():
-    returned_val = fizz_buzz(1)
-    assert returned_val == "1"
+    check_expected(1, "1")
 
 # USE CASE 3 : Get "Fizz" when I pass in 6 (a multiple of 3)
 def test_fizz_for_3multiples():
-    response = fizz_buzz(3)
-    assert response == "Fizz"
+    check_expected(3, "Fizz")
 
 # USE CASE 4 : Get "Fizz" when I pass in 6 (a multiple of 3)
 def test_fizz_for_5multiples():
-    response = fizz_buzz(5)
-    assert response == "Buzz"
+    check_expected(5, "Buzz")
 
 # USE CASE 5 : Get "Fizz" when I pass in 6 (a multiple of 3)
 def test_fizz_for_15multiples():
-    response = fizz_buzz(5)
-    assert response == "FizzBuzz"
+    check_expected(15, "FizzBuzz")
 
-test_fizz_for_15multiples()
+    test_fizz_for_15multiples()
