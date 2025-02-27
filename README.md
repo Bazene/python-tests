@@ -54,12 +54,13 @@ FAILED test_sample.py::test_answer - assert 4 == 5
 ============================ 1 failed in 0.12s =============================
 # Run all tests in terminal
 For that, you may use the following command :
-`pytest -v -s` : run all tests
-`pytest -v -s test_file.py` : run tests in test_file.py only
-`pytest -v -s test_directory/` : run tests within the test_directory 
-`pytest -v -s -k "test2"` : run tests where we have the key word 'test2'    
-`pytest -v -s -k "test2 or test3"` : run tests where we have the key word 'test2' or 'test3'  
-`pytest -v -s -q` : run tests quite mode, it can be helpful when running hundreds or thousands of tests at once.  
+
+1. `pytest -v -s` : run all tests
+2. `pytest -v -s test_file.py` : run tests in test_file.py only
+3. `pytest -v -s test_directory/` : run tests within the test_directory
+4. `pytest -v -s -k "test2"` : run tests where we have the key word 'test2'
+5. `pytest -v -s -k "test2 or test3"` : run tests where we have the key word 'test2' or 'test3'
+6. `pytest -v -s -q` : run tests quite mode, it can be helpful when running hundreds or thousands of tests at once.  
 
 # Run tests in pycharm (Set pytest as the Default Test Runner in PyCharm)
 1. Go to Run → Edit Configurations.
